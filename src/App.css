@@ -1,38 +1,23 @@
-.App {
-  text-align: center;
+/* app.css */
+html {
+  height: 100%;
+  -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body,
+#root {
+  height: 100%;
+  margin: 0; /* Remove default margin */
+  font-family: 'Roboto', sans-serif; /* You can change this if you prefer a different font */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#root__layout {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
+  justify-content: space-between; /* Align content vertically */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main {
+  flex-grow: 1; /* Allows main content to take available space */
 }

@@ -1,0 +1,36 @@
+export const _histories = (index: number) =>
+  [
+    {
+      name: "string",
+      createDate: "2024-11-08T22:07:08.933Z",
+      inspectionID: "string",
+      standardID: "string",
+      note: "string",
+      standardName: "string",
+      samplingDate: "2024-11-08T22:07:08.933Z",
+      samplingPoint: ["string"],
+      price: 0,
+    },
+    {
+      name: "string",
+      createDate: "2024-11-08T22:07:08.933Z",
+      inspectionID: "string",
+      standardID: "string",
+      note: "string",
+      standardName: "string",
+      samplingDate: "2024-11-08T22:07:08.933Z",
+      samplingPoint: ["string"],
+      price: 0,
+    },
+    {
+      name: "string",
+      createDate: "2024-11-08T22:07:08.933Z",
+      inspectionID: "string",
+      standardID: "string",
+      note: "string",
+      standardName: "string",
+      samplingDate: "2024-11-08T22:07:08.933Z",
+      samplingPoint: ["string"],
+      price: 0,
+    },
+  ][index];
